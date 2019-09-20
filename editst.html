@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EDICION TEST</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<script src="form.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> <!-- Llamamos al archivo CSS -->
+</head>
+<body id="cuerpo">
+	<header>
+		<!-- MENU adaptable -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+	<div class="container">
+	  <a class="navbar-brand" href="#">
+			<img src="img/atom (1).PNG" alt="" >
+          BRAIN TEST: CIENCIAS
+		  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+	  <div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+		  <li class="nav-item active">
+			<a class="nav-link" href="index.html">Inicio <img src="img/house.PNG">
+				</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="Login.html">Cerrar Sesión <img src="img/door.PNG"></a>
+		  </li>
+		</ul>
+	  </div>
+	</div>
+  </nav>
+  <!-- /.Menu adaptable -->
+	</header>
+	<section id="principal">
+        <br>
+        <hr color="#123569" size="3">
+        <div>
+			<table id="menu">
+				<tr>
+					<td><a href="menu.html">CANCELAR: REGRESAR A MENU</a></td>
+				</tr>
+			</table>
+		</div>
+        <hr color="#123569" size="3">
+        <br>
+        <div class="container">  
+          <form id="contact" action="" method="post">
+            <h3>¡AQUI PUEDES EDITAR LAS PREGUNTAS DE TU TEST!</h3>
+            <h4>Rellena los siguientes campos donde se te solicitaran ciertos datos para formular el test pregunta a pregunta.</h4>
+              <br>
+			  <p style="background-color: #343a40">PREGUNTA: 1</p>
+			  <br>
+			<fieldset>
+				<input  type="file" tabindex="1" required autofocus>
+			</fieldset>
+			<p id="im">Coloca aqui una IMAGEN o VIDEO DE APOYO</p>
+			<br>
+            <fieldset>
+              <input id="nm" placeholder="ESCRIBE LA PREGUNTA AQUI ¿? " type="text" tabindex="1" required autofocus>
+			</fieldset>
+            <fieldset>
+				<input id="sg" placeholder="SEGUNDOS" type="number" tabindex="2" required autofocus><p id="im">COLOCA AQUI LA DURACION DE LA PREGUNTA</p>
+			</fieldset>
+            <br>
+            <select name="form1">
+                <option value="0">Seleccione</option>
+                <option value="1">DOBLE</option>
+                <option value="3">SUBRAYADO</option>
+            </select>
+            <p id="im">COLOCA AQUI EL ESTILO DE LETRA DE LA PREGUNTA</p>
+            <br>
+            <select name="form2">
+                <option value="0">Seleccione</option>
+                <option value="1">AZUL</option>
+                <option value="3">VERDE</option>
+                <option value="4">ROJO</option>
+            </select>
+            <p id="im">COLOCA AQUI EL COLOR DE LA LETRA DE LA PREGUNTA</p>
+            <br>
+            <hr color="#123569" size="3">
+            <fieldset>
+              <input id="r1" placeholder="ESCRIBE LA PRIMER RESPUESTA AQUI " type="text" tabindex="1" required autofocus>
+			</fieldset> 
+            <fieldset>
+              <input id="rb1" type="checkbox" tabindex="1" required autofocus>
+                <p id="im">CHECKEA SI ESTA ES LA OPCION CORRECTA</p>
+			</fieldset>
+            <fieldset>
+				<input id="pt" placeholder="PUNTAJE" type="number" tabindex="2" required autofocus><p id="im">SI ESTA ES LA CORRECTA ASIGNALE UN PUNTAJE!</p>
+			</fieldset>
+            <br>
+            <hr color="#123569" size="3">
+            <fieldset>
+              <input id="r2" placeholder="ESCRIBE LA SEGUNDA RESPUESTA AQUI" type="text" tabindex="1" required autofocus>
+			</fieldset>
+            <fieldset>
+              <input id="rb2" type="checkbox" tabindex="1" required autofocus>
+                <p id="im">CHECKEA SI ESTA ES LA OPCION CORRECTA</p>
+			</fieldset>
+            <fieldset>
+				<input id="pt" placeholder="PUNTAJE" type="number" tabindex="2" required autofocus><p id="im">SI ESTA ES LA CORRECTA ASIGNALE UN PUNTAJE!</p>
+			</fieldset>
+            <br>
+            <hr color="#123569" size="3">
+            <fieldset>
+              <input id="r3" placeholder="ESCRIBE LA TERCERA RESPUESTA AQUI" type="text" tabindex="1" required autofocus>
+			</fieldset>
+            <fieldset>
+              <input id="rb3" type="checkbox" tabindex="1" required autofocus>
+                <p id="im">CHECKEA SI ESTA ES LA OPCION CORRECTA</p>
+			</fieldset>
+            <fieldset>
+				<input id="pt" placeholder="PUNTAJE" type="number" tabindex="2" required autofocus><p id="im">SI ESTA ES LA CORRECTA ASIGNALE UN PUNTAJE!</p>
+			</fieldset>
+            <br>
+            <hr color="#123569" size="3">
+            <fieldset>
+              <input id="r4" placeholder="ESCRIBE LA CUARTA RESPUESTA AQUI" type="text" tabindex="1" required autofocus>
+			</fieldset>
+            <fieldset>
+              <input id="rb4" type="checkbox" tabindex="1" required autofocus>
+                <p id="im">CHECKEA SI ESTA ES LA OPCION CORRECTA</p>
+			</fieldset>
+            <fieldset>
+				<input id="pt" placeholder="PUNTAJE" type="number" tabindex="2" required autofocus><p id="im">SI ESTA ES LA CORRECTA ASIGNALE UN PUNTAJE!</p>
+			</fieldset>
+            <br>
+            <hr color="#123569" size="3">
+			<fieldset>
+				<input id="fe" type="date" tabindex="6" required autofocus>
+			</fieldset>
+			<p id="im">COLOCA AQUI LA FECHA DE CREACION</p>
+			<br>
+            <fieldset>
+              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" value="Validacion" onclick="validacion()">GUARDAR: SIGUIENTE PREGUNTA</button>
+            </fieldset>
+          </form>
+        </div>
+		<footer>
+			<p id="pie">&#169; Copyright 2019 | UDB | All Rights Reserved.</p>
+			<table id="redes">
+				<tr>
+					<td><a href="" target="_blank"><img src="img/fb.PNG"></a></td>
+					<td><a href="" target="_blank"><img src="img/tw.PNG"></a></td>
+					<td><a href="" target="_blank"><img src="img/yt.PNG"></a></td>
+				</tr>
+			</table>
+		</footer>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> <!-- Importante llamar antes a jQuery para que funcione bootstrap.min.js   --> 
+    <script src="js/bootstrap.min.js"></script> <!-- Llamamos al JavaScript de Bootstrap -->
+</body>
+</html>

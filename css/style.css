@@ -1,0 +1,280 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+    font-size: 15px;
+    width: 85%;
+	height: 75px;
+    margin: 0px auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-item {
+	height: 65vh;
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+
+footer{
+	height: 115px;
+	background-color: #343a40;
+    margin-bottom: 20px;
+}
+
+.d{
+    color: #343a40;
+    font-weight:bolder;
+    font-size: 50px;
+}
+
+#cuerpo{
+	background-color:#343a40;
+}
+
+#titulo{
+	color: white;
+	font-family: calibri;
+}
+
+#encabezado{
+	margin: 0px auto;
+}
+
+#encabezado td{
+	padding-left: 15px;
+}
+
+#redes{
+	padding: 15px;
+	margin: 0px auto;
+}
+
+#redes td{
+	padding-left: 15px;
+}
+
+#logo img{
+	width: 70px;
+	height: 70px;
+}
+
+#principal{
+	background: linear-gradient(to left, rgb(141, 218, 152), rgb(65, 129, 172),rgb(2, 149, 168));
+	width: 85%;
+	height: auto;
+	margin: 0px auto;
+}
+
+#pie{
+	font-family: helvetica;
+	font-size: 9pt;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#menu{
+	padding: 15px;
+	margin: 0px auto;
+}
+
+#menu td{
+	padding: 12px;
+    background-color: #343a40;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#menu td a{
+    color: white;
+    text-decoration: none;
+}
+
+#menu td a:hover{
+    color:#343a40;
+    text-decoration: none;
+}
+
+.m1{
+	padding: 15px;
+	margin: 0px auto;
+}
+
+.m1 td{
+	padding: 12px;
+    background-color: #343a40;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.m1 td a{
+    color: white;
+    text-decoration: none;
+}
+
+.m1 td:hover{
+    background: linear-gradient(to left, rgb(141, 218, 152), rgb(65, 129, 172),rgb(2, 149, 168));
+    text-decoration: none;
+}
+
+a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 8px;
+    font-weight: bold;
+}
+
+#menu td:hover{
+    background:white;
+}
+
+.container {
+  text-align: center;
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  padding-right: 25px;    
+  margin-bottom: 15px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  font-family: calibri;
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+#contact h4 {
+  font-family: calibri;
+  margin: 5px 0 15px;
+  text-align: center;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #343a40;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+p{
+  font-family: calibri;
+    text-align: center;
+    color: rgb(18,53,105);
+}
+
+#im{
+  font-size: 13px;
+  font-family: calibri;
+  text-align: center;
+  color: #888;
+}
+
+select{
+    width: 50%;
+    border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-family: calibri;
+}
+
+#contact input[type="file"],
+#contact input[type="text"],
+#contact input[type="date"],
+#contact input[type="number"]{
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-family: calibri;
+}
+
+#contact input[id="r1"],
+#contact input[id="r2"],
+#contact input[id="r3"],
+#contact input[id="r4"]{
+  width: 78%;
+}
+
+#contact input[type="date"]{
+  width: 45%;
+}
+
+#contact input[type="number"]{
+  width: 20%;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="number"]:hover{
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid rgb(33, 4, 161);
+}
+
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #343a40;
+  border-radius: 15px;
+  color: #FFF;
+  padding: 10px;
+  font-size: 15px;
+  font-family: calibri;
+}
+
+#contact button[type="submit"]:hover {
+    background: linear-gradient(to left, rgb(141, 218, 152), rgb(65, 129, 172),rgb(2, 149, 168));
+}
+
+p{
+  font-family: calibri;
+    text-align: center;
+    color: rgb(251, 253, 255);
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
