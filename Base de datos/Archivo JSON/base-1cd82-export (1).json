@@ -1,0 +1,62 @@
+{
+  "Creador" : {
+    "Contraseña" : "string",
+    "Nickname" : "string",
+    "id" : 1
+  },
+  "Resultados" : {
+    "Color_letra" : "string",
+    "Imagen" : "https://firebasestorage.googleapis.com/v0/b/base-1cd82.appspot.com/o/atom.jpg?alt=media&token=b4653b9e-7029-47b2-9863-9167a2c27878",
+    "Pregunta" : "string",
+    "Tipo_letra" : "string",
+    "id" : 3,
+    "respuesta1" : "string",
+    "respuesta2" : "string",
+    "respuesta3" : "string",
+    "respuesta4" : "string"
+  },
+  "Resultados_Grp" : {
+    "Color_letra" : "string",
+    "Imagen" : "gs://base-1cd82.appspot.com/atom.jpg",
+    "Pregunta" : "string",
+    "Tipo_letra" : "string",
+    "id" : 5,
+    "respuesta1" : "string",
+    "respuesta2" : "string",
+    "respuesta3" : "string",
+    "respuesta4" : "string"
+  },
+  "Resultados_Ranks" : {
+    "Buenas" : "int",
+    "Malas" : "int",
+    "id" : "int"
+  },
+  "Test" : {
+    "Color_letra" : "string",
+    "Imagen" : "gs://base-1cd82.appspot.com/atom.jpg",
+    "Pregunta" : "string",
+    "Tipo_letra" : "string",
+    "id" : 2,
+    "respuesta1" : "string",
+    "respuesta2" : "string",
+    "respuesta3" : "string",
+    "respuesta4" : "string"
+  },
+  "Test_Grupal" : {
+    "Color_letra" : "string",
+    "Imagen" : "gs://base-1cd82.appspot.com/atom.jpg",
+    "Pregunta" : "string",
+    "Tipo_letra" : "string",
+    "Total_grupo" : "int",
+    "id" : 4,
+    "respuesta1" : "string",
+    "respuesta2" : "string",
+    "respuesta3" : "string",
+    "respuesta4" : "string"
+  },
+  "Usuarios" : {
+    "Contraseña" : "string",
+    "Nickname" : "string",
+    "id" : 0
+  }
+}
